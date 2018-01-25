@@ -1,0 +1,163 @@
+body{
+	/*initialization*/
+	margin:0px;
+	padding:0px;
+	font-size: 12px;
+	/*font-family:*/ 
+	line-height:22px;
+}
+li{
+	list-style: none;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+#header{
+	height: 150px;
+	/*line-height: 180px;
+	text-align: center;
+	font-size: 20px;*/
+	border-bottom: solid 1px saddlebrown;
+}
+.headerInner{
+	width: 96%;
+	height: 150px;
+	background-color: orange;
+	font-style:helvetica;
+	margin: 0px auto;
+}
+.headerInner #logo{
+	width: 270px;
+	height: 100px;
+	border: 1px solid black;
+	background: url();
+}
+.headerInner #quickLinkICON{
+	width: 16px;
+	height: 16px;
+	border: 1px solid black;
+	background:url() no-repeat;
+}
+.headerInner #quickLink{
+	margin: 20px 20px 20px 20px;
+}
+.headerInner #vip{
+	margin: 8px auto;
+}
+.headerInner #vip li{
+	float: left;
+	/*height: 25px;*/
+	padding: 8px 20px;
+	border-radius: 10px;
+	border-left: solid 2px saddlebrown;
+	border-top: solid 2px saddlebrown;
+	border-bottom: solid 2px saddlebrown;
+	border-right:solid 2px saddlebrown;
+}
+.headerInner div{
+	float: left;
+}
+.headerInner .member{
+	margin: 20px 20px 20px 15px;
+}
+.headerInner .sign{
+	padding: 0px 10px;
+}
+.headerInner .mail{
+	width: 16px;
+	height: 16px;
+	border: solid 1px black;
+	url()
+	
+}
+.headerInner .arrowDown{
+	border: solid 5px transparent;
+	border-top: solid 5px saddlebrown;
+	position: relative; 
+	top: 6px;
+}
+.headerInner .arrowDown:hover{
+	border: solid 5px transparent;
+	border-bottom: solid 5px saddlebrown;
+	position: relative; 
+	top: 1px;
+}
+.headerInner .search{
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.headerInner .search input{
+	float: left;
+	/*margin-top: 10px;
+	margin-right: 10px;*/
+}
+.headerInner .search #keywords{
+	height:36px;
+	width:320px;
+	border-style: solid;
+	border-color: saddlebrown;
+	border-width: 2px 1px 2px 2px;
+	border-radius: 10px 0px 0px 10px;	
+}
+.headerInner .search #searchBtn{
+	height:42px;
+	width: 80px;
+	/*margin-left: 1px;*/
+	color:white;
+	background-color: saddlebrown;
+	font-size: 20px;
+	text-align: center;
+	line-height: 36px;
+	border-style: solid;
+	border-color: saddlebrown;
+	border-width: 2px 2px 2px 1px;
+	border-radius: 0px 10px 10px 0px;
+}
+.headerInner .search #searchBtn:hover{
+	color:saddlebrown;
+	background-color: orange;
+}
+/*----------------------------*/
+#poster,#recom,#newRestaurant,#history{
+	width: 1200px;
+	height: 100px;
+	/*background: orange;*/
+	border: solid 1px black;
+	margin: 0px auto;
+	margin-bottom: 10px;
+}
+#contentNav{
+	width: 1200px;
+	background: white;
+	margin: 0px auto;
+	margin-bottom: 10px;
+}
+#poster img{
+	width: 1200px;
+}
+#contentNav .cnBox{
+	width: 300px;
+	
+}
+#contentNav .title{
+	height: 22px;
+	/*width: 80px;*/
+	line-height: 22px;
+	background: gainsboro;
+	font-weight: bold;
+}
+#contentNav .title span{
+	display:block;
+	width:80px;
+	height: 22px;
+	text-indent: 10px;
+	background-color: gray;
+	color:white;
+	font-weight: bold;
+}
+#contentNav .content{
+	padding: 12px 0px;
+	border-bottom: solid 4px gainsboro
+}
