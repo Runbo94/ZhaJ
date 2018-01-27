@@ -3,17 +3,11 @@ body{
 	margin:0px;
 	padding:0px;
 	font-size: 12px;
-	/*font-family:*/ 
 	line-height:22px;
 	background: url(../img/goldenBackground.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-}
-li{
-	list-style: none;
-	color: white;
-	background-color: saddlebrown;
 }
 ul{
 	margin: 0px;
@@ -21,14 +15,10 @@ ul{
 }
 #header{
 	height: 100px;
-	/*line-height: 180px;
-	text-align: center;
-	font-size: 20px;*/
 	border-bottom: solid 2px saddlebrown;
 }
 .headerInner{
 	width: 96%;
-	/*height: 120px;*/
 	background-color: ;
 	font-style:helvetica;
 	margin: 0px auto;
@@ -61,7 +51,8 @@ ul{
 }
 .headerInner #vip li{
 	float: left;
-	/*height: 25px;*/
+	color: white;
+	background-color: saddlebrown;
 	margin-right:2px;
 	padding: 8px 20px;
 	border-radius: 10px;
@@ -69,8 +60,9 @@ ul{
 	border-top: solid 2px saddlebrown;
 	border-bottom: solid 2px saddlebrown;
 	border-right:solid 2px saddlebrown;
-	font-size: 13px;
+	font-size: 12px;
 	position: relative;
+
 }
 .headerInner #vip li:hover{
 	color: saddlebrown;
@@ -113,12 +105,10 @@ ul{
 }
 .headerInner .search input{
 	float: left;
-	/*margin-top: 10px;
-	margin-right: 10px;*/
 }
 .headerInner .search #keywords{
 	height:36px;
-	width:260px;
+	width:230px;
 	border-style: solid;
 	border-color: saddlebrown;
 	border-width: 2px 1px 2px 2px;
@@ -143,11 +133,10 @@ ul{
 	background-color: orange;
 }
 /*----------------------------*/
-#recom,#newRestaurant,#history{
+#recom,#newRestaurant,#history,#footer{
 	width: 1200px;
 	height: 100px;
 	/*background: orange;*/
-	border: solid 1px black;
 	margin: 0px auto;
 	margin-bottom: 10px;
 }
@@ -197,6 +186,19 @@ ul{
 #contentNav .content{
 	padding: 12px 0px;
 	border-bottom: solid 4px gainsboro
+}
+
+/*footer*/
+#footer{
+	
+}
+
+.footerSubbox{
+	height: 100px;
+	width: 298px;
+	font-size: 23px;
+	font-family: "agency fb";
+	text-indent: 30px;
 }
 
 #customerServices{
